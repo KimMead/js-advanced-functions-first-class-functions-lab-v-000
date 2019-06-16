@@ -5,7 +5,7 @@ const returnFirstTwoDrivers = function returnFirstTwoDrivers(drivers){
   firstTwo.push(drivers[1]);
   return firstTwo;
 };
-const returnTwoDrivers = function returnLastTwoDrivers(drivers){
+const returnLastTwoDrivers = function returnLastTwoDrivers(drivers){
   let lastTwo = []
   lastTwo.push(drivers[drivers.length-2]);
   lastTwo.push(drivers[drivers.length-1]);
