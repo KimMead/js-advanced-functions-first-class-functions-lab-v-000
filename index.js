@@ -27,10 +27,6 @@ function fareTripler(fare){
   return createFareMultiplier(3)(fare);
 };
 
-function selectDifferentDrivers(array, func){
-  return func(array);
-};
-
 function fetchSpecifiedDrivers(array, func){
   return returnLastTwoDrivers
 };
