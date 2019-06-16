@@ -18,3 +18,7 @@ const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
      return fare*num;
    };
  };
+
+ function fareDoubler(fare){
+   return createFareMultiplier(3)(fare);
+ };
